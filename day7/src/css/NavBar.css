@@ -1,0 +1,19 @@
+
+
+    .navbar {
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar .info {
+        display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.avatar img{
+ 
+    border-radius: 2rem;
+    height: 2rem;
+    
+}
