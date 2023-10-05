@@ -1,0 +1,132 @@
+#sidebar {
+  background-image: radial-gradient(
+    circle 580.6px at 10% 40%,
+    rgb(26, 0, 61) 30%,
+    rgb(0, 0, 0) 100%
+  );
+  display: flex;
+  top:60px;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  left: -100%;
+  transition: 350ms;
+ 
+  }
+  #side
+  {
+    background-image: radial-gradient(
+    circle 580.6px at 10% 40%,
+    rgb(26, 0, 61) 30%,
+    rgb(0, 0, 0) 100%
+  );
+  display: flex;
+  top:40px;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+    left:-40px;
+    transition: 350ms;
+  }
+  
+  .sidebar-title {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    top:0px;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+      left:0;
+  }
+  
+  .sidebar-title > span {
+    display: none;
+  }
+  
+  .sidebar-brand {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .sidebar-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 1px;
+    color: white;
+    width: 160px;
+  }
+  .sidebar-list-item a{
+    font-size: 18px;
+    color: white;
+  
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: rgba(0, 200, 255, 0.2);
+    cursor: pointer;
+  }
+  
+  .sidebar-list-item > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+  
+  .sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    /*
+      we want the z-index of the sidebar higher so that
+      the charts are not showing over the sidebar 
+      on small screens
+    */
+    z-index: 12 !important;
+  }
+  .icon {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  .icon_header {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 26px;
+  }
+  .icon, .icon_header {
+    margin-right: 5px;
+  }
+  
+  .close_icon {
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 200px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'sidebar header header header'
+      'sidebar main main main';
+    height: 100vh;
+  }
+  .nav-menu {
+    left: -100%;
+    transition: 850ms;
+
+  }
