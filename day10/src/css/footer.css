@@ -1,0 +1,30 @@
+.foot{
+    position: relative;
+    display: flex;
+   bottom: 0px;
+height: 26px;
+    padding: 0px 0px;
+    z-index: 99;
+    background-color: rgb(39, 37, 37);
+}
+.fadmin{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    left: 70%;
+    /* width: 20%; */
+}
+.fadmin a{
+    position: relative;
+    color: white;
+    /* display: flex; */
+    margin-right: 20px;
+    /* flex-direction: row; */
+    text-decoration: none;
+    /* width: 80%; */
+}
+.f a{
+    position: relative;
+    width: 60px;
+}
