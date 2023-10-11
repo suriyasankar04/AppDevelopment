@@ -1,0 +1,46 @@
+.csec1{
+    position: relative;
+    height: 30%;
+    width: 80%;
+    left: 10%;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+}
+.imgtemp 
+{
+    position: relative;
+    top:0%;
+    left:15%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 26px;
+    justify-content: space-evenly;
+    overflow-x: none;
+    overflow-y:auto;
+  
+    
+    
+}
+/* a
+{
+    display: flex;
+    height: 90%;
+    width: 30%;
+    
+} */
+.imgs 
+{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    /* left: -10%; */
+    /* display: inline-block; */
+    /* overflow-clip-margin: content-box; */
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
